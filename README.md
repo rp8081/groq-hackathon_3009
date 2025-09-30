@@ -25,7 +25,7 @@ The system uses a sophisticated **multi-agent architecture** orchestrated by Lan
 
 ### ⚡ Groq LLM Integration (Ultra-Low Latency) 🚀
 - Uses **Groq-hosted models (`gemma2-9b-it`)** for reasoning and parsing.
-- Achieves **ultra-low latency inference** for real-time agent responses.
+- Achieves **-low latency inference** for real-time agent responses.
 
 ---
 
@@ -93,6 +93,7 @@ finance_agent/
     │── mcp_market_client.py        # Example MCP client
 │── requirements.txt
 │── README.md
+
 
 
 ###  Agent Trace
