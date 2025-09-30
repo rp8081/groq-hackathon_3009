@@ -1,0 +1,16 @@
+langchain
+langchain-core
+langgraph
+langchain-groq
+langchain-opentutorial
+python-dotenv
+pydantic
+numpy
+pandas
+matplotlib
+yfinance
+websockets
+gradio
+IPython
+langchain-mcp
+langchain-community
