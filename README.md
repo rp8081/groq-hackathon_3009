@@ -37,7 +37,7 @@ The system uses a sophisticated **multi-agent architecture** orchestrated by Lan
 | **Text Input** | ✅ Included | Standard input for portfolio or queries. |
 | **Voice Input** | ✅ Included | 🎤 Speak your portfolio or question → **Whisper transcription** → editable text → full agent flow. |
 | **Visualization** | ✅ Included | Built-in charting (**matplotlib**) to visualize stock history. |
-| **Agent Trace** | ✅ Included | Detailed agent trace view with **emoji-coded step outputs** for transparency. |
+| **Agent Trace** | ✅ Included | Detailed agent trace view with  for transparency. |
 | **Orders Export** | ✅ Included | Final trade orders exportable to **CSV**. |
 
 ---
