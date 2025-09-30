@@ -32,8 +32,8 @@ The system uses a sophisticated **multi-agent architecture** orchestrated by Lan
 ### 🎙️ Multi-Modal Input & Visualization 📊
 | Feature | Status | Description |
 | :--- | :--- | :--- |
-| **Text Input** | ✅ Working | Standard input for portfolio or queries. |
-| **Voice Input** | ✅ Working | 🎤 Speak your portfolio or question → **Whisper transcription** → editable text → full agent flow. |
+| **Text Input** | Included| Standard input for portfolio or queries. |
+| **Voice Input** |Included | 🎤 Speak your portfolio or question → **Whisper transcription** → editable text → full agent flow. |
 | **Visualization** | Included | Built-in charting (**matplotlib**) to visualize stock history. |
 | **Agent Trace** | Included | Detailed agent trace view with **emoji-coded step outputs** for transparency. |
 | **Orders Export** | Included | Final trade orders exportable to **CSV**. |
@@ -95,4 +95,14 @@ finance_agent/
 │── README.md
 
 
+###  Agent Trace
+Input: RELIANCE 40, TCS 30, HDFCBANK 20, INFY 10
+Output :
+    👤 User/Supervisor → RELIANCE 40, TCS 30, HDFCBANK 20, INFY 10
+    🟢 PortfolioInputAgent → Parsed allocations: {'RELIANCE': 0.4, 'TCS': 0.3, 'HDFCBANK': 0.2, 'INFY': 0.1}
+    🔵 MarketDataAgent → Prices fetched from 2024-09-01 → 2024-09-30
+    🟠 RiskAgent → Computed risk metrics: {...}
+    🟣 PortfolioAgent → Suggested allocation based on inverse variance: {...}
+    🟤 ExecutionAgent → Generated orders: [...]
+    ✅ Supervisor → DONE (workflow complete)
 
