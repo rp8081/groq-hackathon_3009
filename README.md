@@ -18,7 +18,7 @@ The system uses a sophisticated **multi-agent architecture** orchestrated by Lan
 | **RiskAgent** | Computes risk metrics (volatility, VaR, drawdown). |
 | **PortfolioAgent** | Suggests rebalancing allocations. |
 | **ExecutionAgent** | Simulates trade orders. |
-| **GenericAgent** | Answers open-ended financial questions (e.g., *"Should I quit the stock market?"*). |
+| **GenericAgent** | Answers open-ended financial questions (e.g., *"Compare compnay A vs company B"*). |
 | **Supervisor** | Orchestrates the flow, ensuring efficiency and avoiding infinite loops. |
 
 ---
