@@ -23,6 +23,8 @@ The system uses a sophisticated **multi-agent architecture** orchestrated by Lan
 
 ---
 
+![Finance Agent Graph](pic1.png)
+
 ### ⚡ Groq LLM Integration (Ultra-Low Latency) 🚀
 - Uses **Groq-hosted models (`gemma2-9b-it`)** for reasoning and parsing.
 - Achieves **ultra-low latency inference** for real-time agent responses.
