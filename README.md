@@ -63,6 +63,7 @@ The system uses a sophisticated **multi-agent architecture** orchestrated by Lan
     python -m src.app
     # MarketDataAgent now fetches prices via MCP seamlessly!
     ```
+Note : Create a `.env` file in the project root and add groq key (GROQ_API_KEY=your_groq_api_key_here)
 
 ---
 
