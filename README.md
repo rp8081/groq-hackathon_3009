@@ -88,10 +88,9 @@ finance_agent/
 │   │   ├── portfolio.py        # Rebalancing agent
 │   │   ├── execution.py        # Trade simulation agent
 │   │   └── generic_agent.py    # Handles open-ended financial queries
-│   └── utils/
-│       └── modality_preprocessors.py   # Voice → Text pipeline
-│── mcp_market_server.py        # MCP server exposing `get_prices`
-│── mcp_market_client.py        # Example MCP client
+│── mcp/
+    │── mcp_market_server.py        # MCP server exposing `get_prices`
+    │── mcp_market_client.py        # Example MCP client
 │── requirements.txt
 │── README.md
 
