@@ -96,7 +96,7 @@ finance_agent/
 
 
 
-###  Agent Trace
+##  Agent Trace
 Input: RELIANCE 40, TCS 30, HDFCBANK 20, INFY 10
 Output :
     👤 User/Supervisor → RELIANCE 40, TCS 30, HDFCBANK 20, INFY 10
